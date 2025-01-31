@@ -1,0 +1,72 @@
+[
+  {
+    "Name": "Gennaro Kassulke",
+    "Species": "Ornithorique",
+    "Age": 17,
+    "Size": 25,
+    "Weight": "79"
+  },
+  {
+    "Name": "Prof. Brendon Simonis",
+    "Species": "Dauphin",
+    "Age": 7,
+    "Size": 44,
+    "Weight": "86"
+  },
+  {
+    "Name": "Juston Zboncak V",
+    "Species": "Chat",
+    "Age": 10,
+    "Size": 64,
+    "Weight": "65"
+  },
+  {
+    "Name": "Cecilia Shea Upton V",
+    "Species": "Dauphin",
+    "Age": 13,
+    "Size": 24,
+    "Weight": "26"
+  },
+  {
+    "Name": "Fiona Hane",
+    "Species": "Lezard",
+    "Age": 6,
+    "Size": 64,
+    "Weight": "59"
+  },
+  {
+    "Name": "Dr. Jaquelin Herman IV",
+    "Species": "Oiseau",
+    "Age": 5,
+    "Size": 98,
+    "Weight": "51"
+  },
+  {
+    "Name": "Abraham Klocko",
+    "Species": "Lezard",
+    "Age": 10,
+    "Size": 77,
+    "Weight": "37"
+  },
+  {
+    "Name": "Otha Walsh",
+    "Species": "Dauphin",
+    "Age": 9,
+    "Size": 94,
+    "Weight": "53"
+  },
+  {
+    "Name": "Al Deckow",
+    "Species": "Poisson",
+    "Age": 10,
+    "Size": 54,
+    "Weight": "79"
+  },
+  {
+    "Name": "Dr. Liza Metz IV",
+    "Species": "CHien",
+    "Age": 20,
+    "Size": 87,
+    "Weight": "100"
+  }
+]
