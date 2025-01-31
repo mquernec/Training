@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "05_DoIt\Test\Test.csproj", "{BCAD9083-A69A-492A-811E-E5F713D6C2FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FedePeche", "05_DoIt\FedePeche\FedePeche.csproj", "{0BDF9EB1-5C18-43D4-AC9B-DF8BDCAA301C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCAD9083-A69A-492A-811E-E5F713D6C2FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAD9083-A69A-492A-811E-E5F713D6C2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAD9083-A69A-492A-811E-E5F713D6C2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAD9083-A69A-492A-811E-E5F713D6C2FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BDF9EB1-5C18-43D4-AC9B-DF8BDCAA301C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDF9EB1-5C18-43D4-AC9B-DF8BDCAA301C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDF9EB1-5C18-43D4-AC9B-DF8BDCAA301C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDF9EB1-5C18-43D4-AC9B-DF8BDCAA301C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
