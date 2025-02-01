@@ -2,6 +2,7 @@ Creer un projet lib
 
 Creer uns strucure “Animal”  pour stoker un nom, une espece une taille (cm) , un age ne anne et un poid(gramme) 
 creer un animal  et afficher ses info sur la console
+
 Chaque animal a un identifiant unique.
 
 Ajoutes des contraintes : 

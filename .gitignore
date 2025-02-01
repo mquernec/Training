@@ -3,3 +3,4 @@
 .vs
 **/BenchmarkDotNet.Artifacts
 **/.sonarqube
+

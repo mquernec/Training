@@ -1,6 +1,8 @@
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Jobs;
+
 [SimpleJob(RuntimeMoniker.Net80)]
+[SimpleJob(RuntimeMoniker.Net70)]
 [SimpleJob(RuntimeMoniker.Net90)]
 [MaxIterationCount(16)]
 [MemoryDiagnoser]
@@ -10,8 +12,7 @@ public class Bench
 
     [Benchmark]
     public string Test() => "toto".ToUpper();
-
-  [Benchmark]
+ [Benchmark]
     public void Contact() 
     {
         string nom = "DUPONT";
@@ -38,5 +39,5 @@ public class Bench
         sb.Append(prenom);
         string nomComplet = sb.ToString();
     }
-   
+
 }
