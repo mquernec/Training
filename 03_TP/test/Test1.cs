@@ -1,10 +1,11 @@
-﻿namespace Test;
+﻿namespace test;
 
 [TestClass]
-public class UnitTest1
+public sealed class Test1
 {
     [TestMethod]
     public void TestMethod1()
     {
+        Assert.IsTrue(true);
     }
 }

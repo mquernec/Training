@@ -1,0 +1,82 @@
+[
+  {
+    "Id": "2424e7a3-43da-4f6b-965b-0beaa0ce6819",
+    "Name": "Mr. Brielle Feest MD",
+    "Species": "Chien",
+    "Age": 18,
+    "Size": 89,
+    "Weight": "18"
+  },
+  {
+    "Id": "945c2cc6-4989-4d91-a253-956227bc9475",
+    "Name": "Hallie Brakus Sr.",
+    "Species": "Chat",
+    "Age": 10,
+    "Size": 76,
+    "Weight": "81"
+  },
+  {
+    "Id": "e30e0a09-83ed-4047-9fdf-cfdfe378c0e6",
+    "Name": "Ericka Dach DVM",
+    "Species": "Chien",
+    "Age": 1,
+    "Size": 57,
+    "Weight": "25"
+  },
+  {
+    "Id": "12cc2b29-58c9-4dad-8b34-289c021642fc",
+    "Name": "Ruthe Swaniawski",
+    "Species": "Lezard",
+    "Age": 5,
+    "Size": 7,
+    "Weight": "70"
+  },
+  {
+    "Id": "c798e096-2778-48f6-af94-6433e2a25d16",
+    "Name": "Ms. Santino Casper DDS",
+    "Species": "Ornithorique",
+    "Age": 16,
+    "Size": 60,
+    "Weight": "89"
+  },
+  {
+    "Id": "90424852-3011-4dca-a560-7e4f4b0542ff",
+    "Name": "Nellie Russel",
+    "Species": "Ornithorique",
+    "Age": 13,
+    "Size": 98,
+    "Weight": "93"
+  },
+  {
+    "Id": "d8f2a99d-740c-433a-b66c-e21f37cb3d00",
+    "Name": "Kaylah Waelchi",
+    "Species": "Poisson",
+    "Age": 5,
+    "Size": 97,
+    "Weight": "58"
+  },
+  {
+    "Id": "0b505137-2b49-4d2e-b068-2df0a5f76d9c",
+    "Name": "Miss Joel Barton PhD",
+    "Species": "Ornithorique",
+    "Age": 4,
+    "Size": 37,
+    "Weight": "10"
+  },
+  {
+    "Id": "96b734ca-cb26-465a-b120-7c6ffd55442f",
+    "Name": "Devonte Santa Roob IV",
+    "Species": "Poisson",
+    "Age": 2,
+    "Size": 34,
+    "Weight": "93"
+  },
+  {
+    "Id": "7dc56021-50ea-442d-992c-8f934710596d",
+    "Name": "Dr. Elisa Juanita Robel",
+    "Species": "Dauphin",
+    "Age": 12,
+    "Size": 72,
+    "Weight": "30"
+  }
+]

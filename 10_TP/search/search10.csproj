@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>  
+    <TargetFramework>net9.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+  </PropertyGroup>
+<ItemGroup>
+    <PackageReference Include="MSTest" Version="3.7.3" />
+        <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.7.3" />
+   <None Update="animals10.json">
+     <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+   </None>
+      <None Update="enclosure10.json">
+     <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+   </None>
+      <None Update="enclosureAnimal10.json">
+     <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+   </None>
+
+</ItemGroup>
+</Project>
