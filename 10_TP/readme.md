@@ -1,18 +1,19 @@
-Pratique 10
-j'ai maintenant un detecteur d'animaux,
+## Détecteur d'Animaux
 
-en lui precisant un Id je veux trouver mon animal
+### Fonctionnalités
 
-son nom
-le debut de son nom
-si pas trouvé , les animaux avec les noms les plus proches
-https://github.com/DanHarltey/Fastenshtein
-taille, poid, age => calcul de distance
-System.Numerics.Tensors
-public static float CosineSimilarity (ReadOnlySpan<float> x, ReadOnlySpan<float> y);
+1. **Recherche par ID**
+    - En précisant un ID, trouvez votre animal.
+    - Affichez son nom et le début de son nom.
+    - Si l'animal n'est pas trouvé, affichez les animaux avec les noms les plus proches.
+    - Utilisez [Fastenshtein](https://github.com/DanHarltey/Fastenshtein) pour calculer la distance entre les noms.
 
-en lui precisant des caracteristiques (taille ,poids etc ....) le detecteur doit trouver les animaux correspondant a la descriptions
+2. **Recherche par Caractéristiques**
+    - En précisant des caractéristiques (taille, poids, âge, etc.), trouvez les animaux correspondant à la description.
+    - Utilisez `System.Numerics.Tensors` pour calculer la similarité.
+    - Méthode recommandée : `public static float CosineSimilarity (ReadOnlySpan<float> x, ReadOnlySpan<float> y);`
+    - Affichez les animaux correspondant le plus possible à la description si aucun ne correspond parfaitement.
 
-corespondant le plus possible a la description si personne ne correspond aprfaitement.
+### Ressources
 
-https://learn.microsoft.com/fr-fr/dotnet/api/system.collections.generic.ireadonlycollection-1?view=net-8.0
+- [IReadOnlyCollection<T> Documentation](https://learn.microsoft.com/fr-fr/dotnet/api/system.collections.generic.ireadonlycollection-1?view=net-8.0)

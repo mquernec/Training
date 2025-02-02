@@ -1,1 +1,0 @@
-public record RecordPecheur(string Nom, string Prenom);

@@ -1,7 +1,13 @@
-Oiseau, Ornithorinque et poisson doivent pouvoir pondre des oeufs (ecrire "nom de l'animal pond oeuf" dans la sorte standard )
+### Animaux et leurs capacités
 
-dauphin, poisson, Ornithorinque, chat, chien doivent nager (ecrire "nom de l'animal Nage" dans la sorte standard )
+#### Pondre des oeufs
+- Oiseau, Ornithorinque et poisson doivent pouvoir pondre des oeufs (écrire "nom de l'animal pond oeuf" dans la sortie standard)
 
-Oiseu doit voler (ecrire "nom de l'animal Vole" dans la sorte standard )
+#### Nager
+- Dauphin, poisson, Ornithorinque, chat, chien doivent nager (écrire "nom de l'animal nage" dans la sortie standard)
 
-oiseau, chat, chien, ornithotrinque doivent marcher(ecrire "nom de l'animal Marche" dans la sorte standard )
+#### Voler
+- Oiseau doit voler (écrire "nom de l'animal vole" dans la sortie standard)
+
+#### Marcher
+- Oiseau, chat, chien, Ornithorinque doivent marcher (écrire "nom de l'animal marche" dans la sortie standard)

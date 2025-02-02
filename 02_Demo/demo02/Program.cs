@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-VoitureClass voitureClass = new VoitureClass();
+﻿VoitureClass voitureClass = new VoitureClass();
 voitureClass.Immat = "1234";
 voitureClass.Couleur = "Rouge";
 

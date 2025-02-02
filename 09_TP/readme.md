@@ -1,24 +1,26 @@
-On prend la liste des animaux, on veut le plus et le plus gros 
+## Objectifs
 
-on a maintenant un certain nombre d'enclos avec un historique de presence des animaux
-(vous pouvez utiliser les données disponibles dans Data, pensez a bien gerer les fichiers)
+1. **Liste des Animaux**
+    - Trouver l'animal le plus gros.
+    - Trouver l'animal le plus petit.
 
-les animaux sont affectés aleatoirement aux enclos pour une periode de temps donnée puis passe dans un autre enclos aleatoirement
+2. **Gestion des Enclos**
+    - Utiliser les données disponibles dans le dossier `Data`.
+    - Gérer les fichiers de manière appropriée.
 
-trouver l'enclos qui a été utilisé le plus souvent 
+3. **Affectation des Animaux**
+    - Les animaux sont affectés aléatoirement aux enclos pour une période donnée.
+    - Ils passent ensuite dans un autre enclos de manière aléatoire.
 
+4. **Analyse des Enclos**
+    - Trouver l'enclos le plus utilisé.
+    - Trouver l'enclos ayant accueilli le plus gros poids total d'animaux.
+    - Pour chaque enclos, déterminer :
+      - Le plus petit animal y ayant vécu.
+      - Le plus gros animal y ayant vécu.
+      - Le nombre d'espèces différentes.
+      - Le nombre d'animaux différents.
 
-qui a acceuillit le plus gros poids total
-pour chaque enclos trouver le plus petit animal y ayant vecu.
-le plus gros 
-le nombre d'espece differente
-le nombre d'animaux different
-
-
-
-
-trouver les  2 animaux qui ont étaient le plus souvent ensemble (nb de fois)
-
-trouver les 2 animaux qui ont passé le plus de temps ensemble (temps passé ensemble)
-
-
+5. **Relations entre Animaux**
+    - Trouver les  2 animaux qui ont étaient le plus souvent ensemble (nb de fois)
+    - Trouver les 2 animaux qui ont passé le plus de temps ensemble (temps passé ensemble)

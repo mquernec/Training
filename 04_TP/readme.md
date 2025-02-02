@@ -1,33 +1,40 @@
+# Projet de Clonage et de Gestion d'Animaux
 
- dotnet add package BenchmarkDotNet 
- dotnet add package MSTest
- dotnet add package MSTest.TestFramework 
+## Installation des Packages
 
-on ajoute une machine a cloner : elle recoit un animal en entré et elle produit un animal identique en sortie.
+```bash
+dotnet add package BenchmarkDotNet 
+dotnet add package MSTest
+dotnet add package MSTest.TestFramework
+dotnet add package Faker.Net
+```
 
+## Clonage d'Animaux
 
-On ajoute un comportement :
-Tout les animaux doivent produire un cris (string en sortie)  
+Nous ajoutons une machine à cloner : elle reçoit un animal en entrée et produit un animal identique en sortie.
 
+## Comportement des Animaux
 
-Generer une liste d'animaux; 
-ils doivent tous crier
-pour creer des objets aleatoires
-https://github.com/oriches/faker-cs
- dotnet add package  Faker.Net
+Tous les animaux doivent produire un cri (string en sortie).
 
-On ajoute la notion d’enclos
-il faut pouvoir ajouter ou enlever des animaux a l'enclos
+## Génération d'Animaux
 
-le cry doit contenir l'espece de l'animal
+Générer une liste d'animaux ; ils doivent tous crier.
 
-
-
-On genere une quantité aleatoire d'animaux aleatoires dans un enclos
+Pour créer des objets aléatoires, utilisez [faker-cs](https://github.com/oriches/faker-cs).
 
 
-tous les animaux d'un enclos doivent crier ensemble.
-=> creer une methode qui renvoie les cris contatenés
+## Gestion des Enclos
+
+Nous ajoutons la notion d’enclos : il faut pouvoir ajouter ou enlever des animaux à l'enclos.
+
+Le cri doit contenir l'espèce de l'animal.
 
 
-Chaque animal doit avoir son cris specifique (avec son nom dedans par exemple)
+## Cri des Animaux dans un Enclos
+
+Nous générons une quantité aléatoire d'animaux aléatoires dans un enclos.
+
+Tous les animaux d'un enclos doivent crier ensemble. Créez une méthode qui renvoie les cris concaténés.
+
+Chaque animal doit avoir son cri spécifique (avec son nom dedans par exemple).

@@ -1,23 +1,35 @@
-https://learn.microsoft.com/fr-fr/dotnet/csharp/linq/
+[Documentation LINQ en C#](https://learn.microsoft.com/fr-fr/dotnet/csharp/linq/)
 
-creer un nouveau projet console
+## Créer un nouveau projet console
 
-definir la notion d'etudiants(  Etudiant(string Nom, string Prenom, Guid ID, int[] Notes)) 
-generer une liste d'etudiants avec leurs notes
+### Définir la notion d'étudiants 
+```csharp
+public record Etudiant(string Nom, string Prenom, Guid ID, int[] Notes);
+```
 
-recuperer les etudiants dont la premiere notes est  > 90
-recuperer les etudiants dont la premiere notes est  > 90 et la quatrieme est < 80 
+Générer une liste d'étudiants avec leurs notes.
 
-regrouper les etudiants par premiere lettre de leur nom
+### Requêtes LINQ
 
-calculer la moyenne de chaque etudiant
-calculer la moyenne par groupe d'initiale
-trouver les etudiants dont leur 1er notes est superieur a leur moyenne
+- Récupérer les étudiants dont la première note est > 90.
+- Creer la requetes sans.ToList() et afficher les resultats
+- Apres l'affichage, ajouter un etudiant avec une premeire note a 100 et afficher les resultats
 
-proposer une methode qui prend en entré 
-string? Nom, string? Prenom, Guid? ID
-et qui renvoit les etudiant repondant a ces criteres si ils ont été valorisés
+- Récupérer les étudiants dont la première note est > 90 et la quatrième est < 80.
+- Regrouper les étudiants par la première lettre de leur nom.
+- Calculer la moyenne de chaque étudiant.
+- Calculer la moyenne par groupe d'initiale.
+- Trouver les étudiants dont leur première note est supérieure à leur moyenne.
 
-renvoyer une methode qui renvoie une qui prend en entré 
-string? Nom, string? Prenom, Guid? ID et qui renvoie la condition de filtre a ajouter dans une close where pour 
-renvoyer les etudiant repondant a ces criteres si ils ont été valorisés
+ 
+
+### Méthodes
+
+
+Proposer une méthode avec cette signature:
+```csharp
+public IEnumerable<Etudiant> FiltrerEtudiants(string? Nom, string? Prenom, Guid? ID);
+```
+et qui renvoie les étudiants répondant à ces critères s'ils ont été valorisés.
+
+Transformer la methode pour qu'elle renvoie  simplement filtre a ajouter comme predicat dans une requete linq

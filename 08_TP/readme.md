@@ -1,8 +1,7 @@
-reprendre le projet sur les animaux
-ajouter une methode "DoItIfYouCan" :
+## Objectif
+Reprendre le projet sur les animaux et ajouter une méthode `DoItIfYouCan`.
 
-tout les animaux qui peuvent voler doivent voler
-tout les animaux qui peuvent nager doivent nager
-etc...
-
-
+## Détails de la Méthode `DoItIfYouCan`
+- Tous les animaux qui peuvent voler doivent voler.
+- Tous les animaux qui peuvent nager doivent nager.
+- Etc...

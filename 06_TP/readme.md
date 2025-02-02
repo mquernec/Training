@@ -1,34 +1,25 @@
-Pratique 06
-ajouter un a chaque animal une methode "mange". la methode ecrit dans la console "nom de l'animal commence a manger", puis attend un nombre de seconde dependant de l'espece.
-et ecrit dans la console "nom de l'animal a fini de manger"
+## Objectif
+Ajouter à chaque animal une méthode `mange`. La méthode doit :
+1. Écrire dans la console "nom de l'animal commence à manger".
+2. Attendre un nombre de secondes dépendant de l'espèce.
+3. Écrire dans la console "nom de l'animal a fini de manger".
 
-faire manger tout les animaux d'un enclos en meme temps 
-Task taskA = new Task( () => Console.WriteLine("Hello from taskA."));
-      // Start the task.
-      taskA.Start();
+Faire manger tous les animaux d'un enclos en même temps.
 
-      // Output a message from the calling thread.
-      Console.WriteLine("Hello from thread '{0}'.",
-                        Thread.CurrentThread.Name);
-      taskA.Wait();
+## Exemple de Code
+
+```csharp
+Task taskA = new Task(() => Console.WriteLine("Hello from taskA."));
+// Start the task.
+taskA.Start();
+
+// Output a message from the calling thread.
+Console.WriteLine("Hello from thread '{0}'.", Thread.CurrentThread.Name);
+taskA.Wait();
+```
 
 
-        String[] files = Directory.GetFiles(args[0]);
-      Parallel.For(0, files.Length,
-                   index => { FileInfo fi = new FileInfo(files[index]);
-                              long size = fi.Length;
-                              Interlocked.Add(ref totalSize, size);
-                   } );
-https://learn.microsoft.com/fr-fr/dotnet/standard/parallel-programming/how-to-write-a-simple-parallel-foreach-loop
- source.AsParallel().WithDegreeOfParallelism(2)
-progamation asynchrone .net
-old scoold
-Tasks
-Task.run
-Task.wait
-task.result
-WhenAll
-WaitAll
- ContinueWith (promise)
-async await
-cancellation token
+
+## Ressources Utiles
+- [How to write a simple parallel foreach loop](https://learn.microsoft.com/fr-fr/dotnet/standard/parallel-programming/how-to-write-a-simple-parallel-foreach-loop)
+
