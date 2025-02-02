@@ -1,6 +1,7 @@
 ## Objectifs
 
 1. **Liste des Animaux**
+    - Trouver un animal par son Id
     - Trouver l'animal le plus gros.
     - Trouver l'animal le plus petit.
 
@@ -22,5 +23,5 @@
       - Le nombre d'animaux différents.
 
 5. **Relations entre Animaux**
-    - Trouver les  2 animaux qui ont étaient le plus souvent ensemble (nb de fois)
+    - Trouver les 2 animaux qui ont été le plus souvent ensemble (nb de fois)
     - Trouver les 2 animaux qui ont passé le plus de temps ensemble (temps passé ensemble)

@@ -19,16 +19,14 @@ Tous les animaux doivent produire un cri (string en sortie).
 
 ## Génération d'Animaux
 
-Générer une liste d'animaux ; ils doivent tous crier.
+Générer une liste d'animaux ; ils doivent tous crier. (Le cri doit contenir l'espèce de l'animal.)
 
-Pour créer des objets aléatoires, utilisez [faker-cs](https://github.com/oriches/faker-cs).
 
 
 ## Gestion des Enclos
 
 Nous ajoutons la notion d’enclos : il faut pouvoir ajouter ou enlever des animaux à l'enclos.
 
-Le cri doit contenir l'espèce de l'animal.
 
 
 ## Cri des Animaux dans un Enclos

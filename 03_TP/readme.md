@@ -66,6 +66,10 @@ var summary = BenchmarkRunner.Run<Bench>();
 dotnet run -c release --framework net9.0
 ```
 
+### Exemple benchmark
+concatenation de chaines
+
+
 ## Warnings du Compilateur
 - Liste des warnings et comment les résoudre.
 

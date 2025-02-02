@@ -8,9 +8,20 @@ Définir les enclos pour différents types d'animaux.
 
 ### Pattern Matching
 Créer un analyseur d'animal pour :
-- Analyser l'espèce
-- Analyser le poids
+- Analyser l'espèce 
+- Analyser le poids 
 - Analyser la taille
+(une classe exposant 3 methodes qui partant d'un animal vont renvoyer une chaine de caractere )
+
+| Animal    | borne petit | borne grand| borne fin | borne gros|
+| --------- | ----------- |----------- |---------- |---------- |
+| Oiseau    |  10         |  100       | 10        | 300       |
+|Chat       |  20         |  50        | 1000      | 5000      |
+|Chien      |  20         |  50        | 2000      | 30000     |
+|Poisson    |  5          |  15        | 10        | 1000      |
+|Ornithorynque   |  20    |  45        | 4000      | 5000       |
+|Dauphin    |  90         |  120       | 10000     | 50000       |
+
 
 ### Preprocessor Directives
 Tracer les temps d'exécution de la méthode mais seulement en mode debug.
