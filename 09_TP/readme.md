@@ -2,8 +2,11 @@
 
 1. **Liste des Animaux**
     - Trouver un animal par son Id
-    - Trouver l'animal le plus gros.
-    - Trouver l'animal le plus petit.
+    - Trouver le poid de l'animal le plus lourd.
+    - Trouver le poid de l'animal le plus leger.
+    - Trouver la taille de l'animal le plus petit.
+    - Trouver la taille de plus grand.
+    - Trouver le poids due chien le plus lourd, de chat le plus leger,  ainsi que le taille de l'oiseau le plus petit et du poisson le plus grand.
 
 2. **Gestion des Enclos**
     - Utiliser les données disponibles dans le dossier `Data`.
