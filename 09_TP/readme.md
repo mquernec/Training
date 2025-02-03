@@ -3,6 +3,7 @@
 1. **Liste des Animaux**
     - Trouver un animal par son Id
     - Trouver le poid de l'animal le plus lourd.
+    - Trouver les 4eme,5eme et 6eme animaux les plus lourds.
     - Trouver le poid de l'animal le plus leger.
     - Trouver la taille de l'animal le plus petit.
     - Trouver la taille de plus grand.
