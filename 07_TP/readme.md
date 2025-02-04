@@ -13,7 +13,7 @@ Générer une liste d'étudiants avec leurs notes.
 
 - Récupérer les étudiants dont la première note est > 90.
 - Creer la requetes sans.ToList() et afficher les resultats
-- Apres l'affichage, ajouter un etudiant avec une premeire note a 100 et afficher les resultats
+- Apres l'affichage, ajouter un etudiant avec une premiere note a 100 et afficher les resultats
 
 - Récupérer les étudiants dont la première note est > 90 et la quatrième est < 80.
 - Regrouper les étudiants par la première lettre de leur nom.
